@@ -5,43 +5,59 @@
 Selenium Tabanlı Test Otomasyon Aracı
 
 **Program Özellikleri:**
+1. ** Özel Tarayıcı.
+2. ** Selenium 4
+3. ** UserAgent Değiştirme vd. Özellikleri .txt dosyasından çekme özelliği
+4. ** Element ve class Otomatik Seçme Özelliği(Deneysel)
+5. ** İframe ve birden fazla iframe içerisine girme ve elementlerde işlem yaptırma özelliği ve Girilen İframelerden çıkma Özelliği
+6. ** Profil dosyaları bir merkezden yönetme özelliği(Her açılan profil dosyası programın çalıştığı yerde muhafaza edilmektedir.)
+7. ** Manuel:Tıklama,MouseClick,KeysEnter,Javascript,Url Gitme,Bekletme Zamanı,İFrame Çıkış,Normal veri yazma gibi programın parametrelerini kullanabilme Özelliği
+8. ** Normal Click İşlemi Yaptırabilme Özelliği.
+9. ** Mouse Over İşlemi Yaptırabilme Özelliği.
+10. ** Mose Click İşlemi Yaptırabilme Özelliği.
+11. ** Normal input vb. elementlere veri yazma özelliği.
+12. ** Google Aratma Gibi Yerlere veriyi yazıp Enter İşlemi Yaptırabilme Özelliği.
+13. ** İşlemler Arası Bekletme Zamanı Ekleme Özelliği.
+14. ** İFrame İşlemleri Yapabilme Özelliği(İframe içeriğine girip yukarıdaki bütün işlemleri yapabilirsiniz.)
+15. ** Test Giriş ve Çıkış Zamanı ve ilerleyiş loglaması.
+16. ** Logların .Txt Formatında Dışarı Aktarılması.
+17. ** Kullanıcı gibi yazdırma özelliği.
+18. ** Kullanıcı gibi yazdırma özelliği ve bitiminde enter'a basma
+19. ** Web Sayfada Bulunan herhangi bir elementin ekran görüntüsünü çekme
+20. ** Web Sayfasının Ekran Görüntüsünü Çekme Özelliği.
+21. ** Linkleri Yeni Sekmede Açma Özelliği
+22. ** Logların Html Olarak Dışarı Aktarılması.
+23. ** Çift Tıklama (Double Click)
+24. ** Yan Sekmede Link Açma Özelliği
+25. ** Html Rapor Aktarma Özelliği
+26. ** Aynı olan elementlerde Toplu Click Yapma İşlemi bu özellik ile aşağıdakiler yapılabilinir
+ <br/>
+a-) Mouse Click <br/>
+b-) Mouse Over <br/>
+c-) Mouse Double Click <br/>
+d-) Mouse New Tab <br/>
+e-) Normal Tıklama <br/>
 
-1. **Özel Tarayıcı:** Özel bir tarayıcı kullanarak testleri gerçekleştirme imkanı.
-2. **Selenium 4:** Selenium 4 kullanarak güçlü test otomasyonu sağlama.
-3. **UserAgent Değiştirme:** .txt dosyasından çekilen bilgilerle UserAgent'ı değiştirme özelliği.
-4. **Element ve Class Otomatik Seçme:** (Deneysel) Element ve class'ları otomatik olarak seçme özelliği.
-5. **İframe ve Birden Fazla İframe Desteği:** İframe'lere girme, işlem yapma ve çıkma özelliği.
-6. **Profil Dosyalarını Merkezi Yönetim:** Profil dosyalarını merkezi bir yerden yönetme özelliği.
-7. **Manuel İşlemler:** Tıklama, MouseClick, KeysEnter, Javascript, URL Gitme, Bekletme Zamanı, İframe Çıkış, Normal Veri Yazma gibi parametreleri kullanabilme özelliği.
-8. **Normal Click İşlemi:** Normal click işlemi yapabilme özelliği.
-9. **Mouse Over İşlemi:** Mouse üzerine gelme işlemi yaptırabilme özelliği.
-10. **Mouse Click İşlemi:** Mouse click işlemi yaptırabilme özelliği.
-11. **Elementlere Veri Yazma:** Normal input ve benzeri elementlere veri yazma özelliği.
-12. **Google Arama ve Enter İşlemi:** Google gibi yerlere veri yazıp Enter işlemi yaptırabilme özelliği.
-13. **Bekletme Zamanı Ekleme:** İşlemler arası bekletme zamanı ekleme özelliği.
-14. **İFrame İşlemleri:** İframe içeriğine girip çeşitli işlemler yapabilme özelliği.
-15. **Test Loglama:** Test giriş, çıkış zamanları ve ilerleme loglaması.
-16. **Log Dışarı Aktarımı:** Logları .txt formatında dışarı aktarabilme özelliği.
-17. **Kullanıcı Gibi Yazdırma:** Kullanıcı gibi yazdırma ve bitiminde Enter'a basabilme özelliği.
-18. **Ekran Görüntüsü Çekme:** Web sayfasındaki herhangi bir elementin veya sayfanın ekran görüntüsünü çekme özelliği.
-19. **Yeni Sekmede Link Açma:** Linkleri yeni sekmede açabilme özelliği.
-20. **HTML Log Dışarı Aktarımı:** Logları HTML formatında dışarı aktarabilme özelliği.
-21. **Çift Tıklama (Double Click):** Çift tıklama işlemi yapabilme özelliği.
-22. **Yan Sekmede Link Açma:** Yan sekmede link açabilme özelliği.
-23. **HTML Rapor Aktarma:** Test raporlarını HTML formatında aktarabilme özelliği.
-24. **Toplu Click İşlemi:** Aynı olan elementlerde toplu click işlemi yapabilme özelliği.
-25. **Shadow-Root İşlemleri:** Javascript ile shadow-root işlemleri yapabilme özelliği.
-26. **Sağ Tıklama (Context Click):** Sağ tıklama işlemi yapabilme özelliği.
-27. **Fareyi Belirli Bir Yere Taşıma:** Fareyi belirli bir konuma taşıma özelliği.
-28. **İframe Dışarı Çıkma:** İframe içinden çıkabilme özelliği.
-29. **Javascript Mouse İşlemleri:** Mouse üzerinde çeşitli işlemler yapabilme özelliği.
+27. ** Shadow-Root İşlem Yapma(Javascript)
+28. ** Sağ Tıklama (Context Click)
+29. ** Fareyi Belirli Bir Yere Taşıma
+30. **İframe Dışarı Çıkma
+31. **Javascript Mouse Over
+32. **Javascript Mouse DoubleClick
+33. **Javascript Mouse MouseDown
+34. **Javascript Mouse MouseUp
+35. **Javascript Mouse MouseMove
+36. **Javascript Mouse MouseOut
+37. **Javascript Mouse MouseEnter
+38. **Javascript Mouse MouseLeave
+39. ** Javascript Mouse Click
 
 **Gelecek Özellikler:**
 
-1. Fare İmlecini Belirli Bir Yere Taşıma.
-2. Klavye Eylemleri (Tuş Basma, Bırakma, Kombinasyonlar) {CTRL+C, V vb.}.
-3. Slider Kullanarak Bir Elemanı Kaydırma.
-4. Sürükle-Bırak (Drag-Drop) Özelliği Kullanımı.
+1. Fare İmlecini Belirli Bir Yere Taşıma
+2. Klavye Eylemleri (Tuş Basma, Bırakma, Kombinasyonlar){CTRL+C,V vd.}
+3. Slider Kullanarak Bir Elemanı Kaydırma
+4. Sürükle-Bırak(Drag-Drop) Özelliği Kullanımı.
 
 ---
 
@@ -53,6 +69,6 @@ Detaylı kullanım bilgileri ve örnekler için [Kullanım Kılavuzu](docs/usage
 
 ## Lisans
 
-Bu proje [MIT lisansı](LICENSE) altında lisanslanmıştır. Detaylı bilgiler için lisans dosyasını inceleyebilirsiniz.
+Bu proje [Apache 2.0 lisansı](LICENSE) altında lisanslanmıştır. Detaylı bilgiler için lisans dosyasını inceleyebilirsiniz.
 
 ---
