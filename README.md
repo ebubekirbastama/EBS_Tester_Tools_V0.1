@@ -60,7 +60,11 @@ e-) Normal Tıklama <br/>
 4. Sürükle-Bırak(Drag-Drop) Özelliği Kullanımı.
 
 ---
-
+Program Görselleri:
+![EBS Tester Tools Logo](s1.png)
+![EBS Tester Tools Logo](s2.png)
+![EBS Tester Tools Logo](s3.png)
+![EBS Tester Tools Logo](s4.png)
 ## Nasıl Kullanılır?
 
 Detaylı kullanım bilgileri ve örnekler için [Kullanım Kılavuzu](docs/usage-guide.md) dosyasını inceleyebilirsiniz.
