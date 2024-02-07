@@ -67,7 +67,7 @@ Program Görselleri:
 ![EBS Tester Tools Logo](s4.png)
 ## Nasıl Kullanılır?
 
-Detaylı kullanım bilgileri ve örnekler için [Kullanım Kılavuzu](docs/usage-guide.md) dosyasını inceleyebilirsiniz.
+Detaylı kullanım bilgileri ve örnekler için [Kullanım Kılavuzu](/usage-guide.md) dosyasını inceleyebilirsiniz.
 
 ---
 
